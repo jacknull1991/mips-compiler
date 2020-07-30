@@ -1,0 +1,5 @@
+This is the translater for Tiger compiler, following chapter 6 and 7 in "Modern Compiler Implementation in ML."
+To compile
+- CM.make "sources.cm";
+To use
+- Main.main "test.tig";

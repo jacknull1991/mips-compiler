@@ -1,0 +1,9 @@
+This is the typechecker and translate to IR tree for Tiger compiler, following chapter 5,6&7 in "Modern Compiler Implementation in ML."
+To compile
+- CM.make "sources.cm";
+To use
+- Main.main "test.tig";
+
+Assume all variables escape.
+Some bugs in type checking phase have not been fixed yet.
+

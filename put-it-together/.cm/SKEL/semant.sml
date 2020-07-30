@@ -1,0 +1,2 @@
+Skeleton 5
+d3f9ä¢Env"d"List"d"Temp"d"ListPair"Cd"MipsFrame"d"String"ä¢Absyn"ä¢Types"d"ErrorMsg"Naã¢SEMANT"è0ad"Semant"jh6ad"A"gp1ÿ9Cad"S"gp1d"Symbol"ad"T"gp1ÿad"E"gp1ÿad"Tr"gp1d"Translate"ad"binarySet"jÿgp1e"BinarySetFn"Ngp1ÿ

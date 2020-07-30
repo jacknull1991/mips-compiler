@@ -1,0 +1,5 @@
+/* A program to solve the 8-queens problem */
+
+let
+    var N := 0008ABC
+end

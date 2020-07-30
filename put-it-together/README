@@ -1,0 +1,28 @@
+Everything put together.
+
+Previous phases fixes list:
+Lexer:
+- incorrectly lexing "function". DONE
+
+Type-Checking:
+- AssignExp should return UNIT type. DONE
+- The value being assigned to and the value being assigned should be the same type. DONE
+- The iteration variable in for-loops must be unassignable. TODO
+- FieldVar is not always working. DONE
+- Should not allow assigning to implicitlt typed variables. DONE
+
+Intermediate Representation:
+- Fix field var & subscript var. DONE
+- Checking array bounds when translating subscript var. DONE
+- Duplicate fragments when creating string literals that already exists. DONE
+- String comparison requires external call. DONE
+- When making function call, should append whether the static link escape. DONE
+- Tracking size of array when creating them. DONE
+
+Instruction Selection:
+- Need to handle more than 4 arguments in munchArgs. DONE
+- Need to handle moves from memory, label, or constant. DONE
+- In CJUMP, no need to jump to the false label. DONE
+- In munchExp, need to handle MEM(BINOP(MINUS,...)). DONE
+
+

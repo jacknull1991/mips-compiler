@@ -1,0 +1,13 @@
+/* define a recursive function */
+let
+
+/* calculate n! */
+function nfactor(n: int, n2:int, n3:int, n4:int, n5:int, n6:int): int =
+		if  n = 0 
+			then 1
+			else n * nfactor(n-1)
+
+in
+	nfactor(10,1,1,1,1,1)
+end
+

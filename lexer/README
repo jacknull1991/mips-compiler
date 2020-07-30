@@ -1,0 +1,8 @@
+For integer
+- leading zeros are ignored.
+For string
+- escape sequence \n, \t, \\, \" are allowed.
+- \[\n\t ]+\ is allowed for multi-line string.
+- control characters \^c ASCII are allowed.
+- \ddd for ASCII characters are allowed. 
+- anything else with \ is illegal.

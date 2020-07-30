@@ -1,0 +1,7 @@
+let
+  var a := "name"
+  var b := "name"
+  var c := "age"
+in
+  (a <= b) & (b < c)
+end
